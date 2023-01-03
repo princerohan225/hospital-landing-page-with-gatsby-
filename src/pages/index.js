@@ -1,5 +1,10 @@
-import * as React from "react"
+import React from "react"
+import HospitalLandingPage from "./hospital"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return(
+    <>
+    <HospitalLandingPage/>
+    </>
+  ) 
 }
